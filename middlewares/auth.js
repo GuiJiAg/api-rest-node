@@ -19,11 +19,4 @@ function isAuth(req, res, next) {
         });
 }
 
-function validated(req, res) {
-    res.status(200).send({message: `Tienes acceso`});
-}
-
-module.exports = {
-    isAuth,
-    validated
-};
+module.exports = isAuth;

@@ -8,12 +8,11 @@ const api = express.Router();
 
 api.get('/menu/entrees', entreeController.getEntrees);
 api.get('/menu/entrees/:entreeId', entreeController.getEntree);
-api.post('/menu/entrees', entreeController.postEntree);
-api.put('/menu/entrees/:entreeId', entreeController.updateEntree);
-api.delete('/menu/entrees/:entreeId', entreeController.deleteEntree);
+api.post('/menu/entrees', auth, entreeController.postEntree);
+api.put('/menu/entrees/:entreeId', auth, entreeController.updateEntree);
+api.delete('/menu/entrees/:entreeId', auth, entreeController.deleteEntree);
 
-api.post('/signUp', userController.signUp);
+//api.post('/signUp', userController.signUp);
 api.post('/signIn', userController.signIn);
-api.get('/private', auth.isAuth, auth.validated);
 
 module.exports = api;

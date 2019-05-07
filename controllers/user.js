@@ -3,6 +3,7 @@
 const User = require('../models/user');
 const service = require('../service/index');
 
+/*
 const signUp = (req, res) => {
     const user = new User({
         email: req.body.email,
@@ -20,6 +21,7 @@ const signUp = (req, res) => {
         return res.status(200).send({token: service.createToken(user)});
     });
 }
+*/
 
 const signIn = (req, res) => {
     User.findOne({ email: req.body.email }, (err, user) => {
@@ -39,7 +41,7 @@ const signIn = (req, res) => {
             } 
 
             req.user = user;
-            return req.status(200).send({
+            return res.status(200).send({
                 message: `Acceso concedido`,
                 token: service.createToken(user)
             });

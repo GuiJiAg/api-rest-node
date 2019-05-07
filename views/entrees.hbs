@@ -1,0 +1,22 @@
+<script type="text/javascript">
+    let entreesList = document.createElement('ul');
+
+    const myHeaders = new Headers();
+    myHeaders.append('authorization', `Bearer ${localStorage.token}`);
+
+    fetch('/api/menu/entrees', {
+        method: 'GET',
+        headers: myHeaders
+    })
+    .then(res => res.json())
+    .then(data => {
+        data.menu.entrees.map(entree => {
+            let text = document.createTextNode(entree.name);
+            let elem = document.createElement('li');
+            elem.appendChild(text);
+            entreesList.appendChild(elem);
+        });
+
+        document.body.appendChild(entreesList);
+    })
+</script>

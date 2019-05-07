@@ -49,6 +49,7 @@ UserSchema.methods.gravatar = function(size) {
     return `https://gravatar.com/avatar/${md5}?s=${size}=retro`;
 }
 
+//Compare password header with hashed password
 UserSchema.methods.comparePassword = function(candidatePassword, cb) {
     bcrypt.compare(candidatePassword, this.password, (err, isMatch) => {
         cb(err, isMatch);
