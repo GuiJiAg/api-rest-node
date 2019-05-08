@@ -26,7 +26,12 @@ function getEntrees(req, res) {
             return res.status(404).send(`No existe el recurso \"${entrees}\"`);
         }
 
-        res.status(200).send({menu: {entrees}});
+        var entreesArray = [];
+        for (let i in entrees) {
+            entreesArray.push(entrees[i]);
+        }
+
+        res.status(200).send(entreesArray);
     });
 }
 
