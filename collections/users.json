@@ -1,0 +1,1 @@
+{"_id":{"$oid":"5cd13acbf0c8bc192473a0d3"},"signupDate":{"$date":{"$numberLong":"1557215695537"}},"email":"guillermojjagudo@gmail.com","displayName":"Guillermo Jiménez Agudo","password":"$2a$10$3rljjb/TbvL/5.anM/NPN.S0UaoUy96R2mPpjFYIiW1hWDfu.ww8y","avatar":"https://gravatar.com/avatar/394fc5941f430b9260555be07bfc07ad?s=200=retro","__v":{"$numberInt":"0"}}

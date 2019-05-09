@@ -1,0 +1,3 @@
+{"_id":{"$oid":"5cd40da5e8ea5935b0e33641"},"name":"Espagueti Boloñesa","description":"Espaguetis con queso, tomate natural frito y carne de cerdo picada","price":{"$numberInt":"9"}}
+{"_id":{"$oid":"5cd40dd8e8ea5935b0e33642"},"name":"Espagueti Carbonara","description":"Espaguetis con queso, nata, beacon y nuez moscada","price":{"$numberInt":"9"}}
+{"_id":{"$oid":"5cd40e0de8ea5935b0e33643"},"name":"Espagueti Pesto","description":"Espaguetis con queso parmesano, albahaca y piñones","price":{"$numberInt":"9"}}

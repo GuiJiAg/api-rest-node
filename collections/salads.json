@@ -1,0 +1,4 @@
+{"_id":{"$oid":"5cd3f7ece8ea5935b0e3363d"},"name":"Ensalada Mixta","description":"Ensalada con tomate, espárragos, atún y zanahoria","price":{"$numberInt":"6"}}
+{"_id":{"$oid":"5cd3f854e8ea5935b0e3363e"},"name":"Ensalada Hacebuche","description":"Ensalada con salmón ahumado, bacalao ahumado, anchoas y miel de caña","price":{"$numberInt":"9"}}
+{"_id":{"$oid":"5cd3f886e8ea5935b0e3363f"},"name":"Ensalada de quinoa","description":"Ensalada de quinoa con tomate, pepino, aceitunas y queso","price":{"$numberInt":"9"}}
+{"_id":{"$oid":"5cd3f8e8e8ea5935b0e33640"},"name":"Ensalada César","description":"Ensalada con salsa César y pollo a la plancha","price":{"$numberInt":"9"}}

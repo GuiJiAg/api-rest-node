@@ -1,0 +1,5 @@
+{"_id":{"$oid":"5cd414ede8ea5935b0e33644"},"name":"Revuelto de tagarninas","description":"Revuelto de cardillo silvestre con jamón ibérico","price":{"$numberInt":"10"}}
+{"_id":{"$oid":"5cd41537e8ea5935b0e33645"},"name":"Revuelto de espárragos","description":"Revuelto de espárragos trigueros con jamón ibérico","price":{"$numberInt":"10"}}
+{"_id":{"$oid":"5cd415aee8ea5935b0e33647"},"name":"Revuelto de la Vega","description":"Revuelto de espárragos de la Vega de Antequera con gambas y jamón ibérico","price":{"$numberInt":"10"}}
+{"_id":{"$oid":"5cd415e6e8ea5935b0e33648"},"name":"Revuelto de gulas","description":"Revuelto de gulas con habitas Baby","price":{"$numberInt":"8"}}
+{"_id":{"$oid":"5cd42b16e8ea5935b0e3364a"},"name":"Revuelto de bacalao","description":"Revuelto de bacalao con patatas","price":{"$numberInt":"8"}}

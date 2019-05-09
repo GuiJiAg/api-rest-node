@@ -1,0 +1,7 @@
+{"_id":{"$oid":"5cd42c5fe8ea5935b0e3364b"},"name":"Almejas","description":"Almejas de carril salteadas","price":{"$numberInt":"12"}}
+{"_id":{"$oid":"5cd42c88e8ea5935b0e3364c"},"name":"Langostinos al ajillo","description":"Langostinos al ajillo con guindilla y ajo","price":{"$numberInt":"10"}}
+{"_id":{"$oid":"5cd42cb7e8ea5935b0e3364d"},"name":"Tataki de atún","description":"Tataki de atún con quinoa frita","price":{"$numberInt":"16"}}
+{"_id":{"$oid":"5cd42ce4e8ea5935b0e3364e"},"name":"Atún a la plancha","description":"Atún a la plancha con crema de puerros y langostinos","price":{"$numberInt":"16"}}
+{"_id":{"$oid":"5cd42d28e8ea5935b0e3364f"},"name":"Boquerones al limón","description":"Boquerones al limón fritos con perejil","price":{"$numberInt":"8"}}
+{"_id":{"$oid":"5cd42d6ae8ea5935b0e33650"},"name":"Boquerones rellenos","description":"Boquerones rellenos de pimiento morón","price":{"$numberInt":"12"}}
+{"_id":{"$oid":"5cd42d96e8ea5935b0e33651"},"name":"Flamenquín de merluza","description":"Flamenquín de merluza con gambas","price":{"$numberInt":"10"}}

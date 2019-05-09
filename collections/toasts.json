@@ -1,0 +1,5 @@
+{"_id":{"$oid":"5cd3ec01e8ea5935b0e33638"},"name":"Tosta de bacalao","description":"Tosta de bacalao ahumado con aceite","price":{"$numberInt":"6"}}
+{"_id":{"$oid":"5cd3ec37e8ea5935b0e33639"},"name":"Tosta de salmón","description":"Tosta de salmón ahumado con aceite","price":{"$numberInt":"6"}}
+{"_id":{"$oid":"5cd3ec60e8ea5935b0e3363a"},"name":"Tosta de anchoas","description":"Tosta de anchoas con tomate natural y aceite","price":{"$numberInt":"6"}}
+{"_id":{"$oid":"5cd3ec85e8ea5935b0e3363b"},"name":"Tosta de jamón","description":"Tosta de jamón ibérico con aceite de oliva","price":{"$numberInt":"6"}}
+{"_id":{"$oid":"5cd3ecb4e8ea5935b0e3363c"},"name":"Tosta de queso","description":"Tosta de queso curado de Oveja con aceite","price":{"$numberInt":"6"}}

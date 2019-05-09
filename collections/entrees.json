@@ -1,0 +1,8 @@
+{"_id":{"$oid":"5ccb0a0a4339c84bc8edf2db"},"name":"Jamón ibérico","description":"Jamón ibérico de bellota","price":{"$numberInt":"12"}}
+{"_id":{"$oid":"5ccb0ac14339c84bc8edf2dc"},"name":"Queso curado","description":"Queso curado de Oveja","price":{"$numberInt":"10"}}
+{"_id":{"$oid":"5ccb0b344339c84bc8edf2dd"},"name":"Tomate aliñado","description":"Tomate natural con aceite de oliva, sal y pimienta","price":{"$numberInt":"6"}}
+{"_id":{"$oid":"5ccb0b724339c84bc8edf2de"},"name":"Porra antequerana","description":"Majaillo de pan frito y ajo con atún, huevo cocido, jamón y tomates cherry","price":{"$numberInt":"8"}}
+{"_id":{"$oid":"5ccb0bac4339c84bc8edf2df"},"name":"Gazpacho andaluz","description":"Gazpacho con tomate, cebolla y pimiento verde como guarnición","price":{"$numberInt":"6"}}
+{"_id":{"$oid":"5ccb0be04339c84bc8edf2e0"},"name":"Boquerones en vinagre","description":"Boquerones en vinagre con aceitunas","price":{"$numberInt":"8"}}
+{"_id":{"$oid":"5ccb0c104339c84bc8edf2e1"},"name":"Anchoas del Cantábrico","description":"Anchoas cántabras sobre tomate natural","price":{"$numberInt":"12"}}
+{"_id":{"$oid":"5ccb0c724339c84bc8edf2e2"},"name":"Corazones de alcachofa","description":"Corazones de alcachofa con jamón ibérico","price":{"$numberInt":"9"}}

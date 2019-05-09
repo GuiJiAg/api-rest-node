@@ -13,7 +13,7 @@ function getEntree(req, res) {
             return res.status(404).send({message:'Entrante no encontrado'});
         }
 
-        res.status(200).send({entree});
+        res.status(200).send(entree);
     });
 }
 
@@ -49,7 +49,7 @@ function postEntree(req, res) {
             return res.status(500).send({message:`Error al salvar en la base de datos: ${err}`});
         }
 
-        res.status(200).send({entree: entreeStored});
+        res.status(200).send(entreeStored);
     });
 }
 
@@ -62,7 +62,7 @@ function updateEntree(req, res) {
             return res.status(500).send({message: `Error al realizar la petición: ${err}`});
         }
         
-        res.status(200).send({entree});
+        res.status(200).send(entree);
     });
 }
 

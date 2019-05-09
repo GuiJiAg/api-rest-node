@@ -1,0 +1,7 @@
+{"_id":{"$oid":"5cd43676e8ea5935b0e33653"},"name":"Flamenquín estilo cordobés","description":"Flamenquín relleno de queso de oveja y jamón ibérico","price":{"$numberInt":"10"}}
+{"_id":{"$oid":"5cd436eae8ea5935b0e33654"},"name":"Papa antequerana","description":"Albóndiga rellena con especias","price":{"$numberInt":"8"}}
+{"_id":{"$oid":"5cd43730e8ea5935b0e33655"},"name":"Flamenquín de toro","description":"Flamenquín de ternera relleno de rabo de toro","price":{"$numberInt":"12"}}
+{"_id":{"$oid":"5cd4376be8ea5935b0e33656"},"name":"Secreto ibérico a la plancha","description":"Carne de cerdo de entre la paletilla y la panceta","price":{"$numberInt":"12"}}
+{"_id":{"$oid":"5cd4387ee8ea5935b0e33657"},"name":"Lagarto ibérico de Bellota","description":"Carne del cerdo de entre las costillas y el lomo","price":{"$numberInt":"12"}}
+{"_id":{"$oid":"5cd4391ae8ea5935b0e33658"},"name":"Presa ibérica de Bellota","description":"Carne de cerdo del cabecero de lomo","price":{"$numberInt":"15"}}
+{"_id":{"$oid":"5cd439e5e8ea5935b0e33659"},"name":"Cachopo","description":"Cachopo de ternera de Retinto con queso de oveja, queso de cabra y jamón ibérico","price":{"$numberInt":"22"}}
