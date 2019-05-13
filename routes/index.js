@@ -19,6 +19,8 @@ const albarinioController = require('../controllers/albarinio');
 const ruedaWineController = require('../controllers/ruedaWine');
 const olorosoController = require('../controllers/oloroso');
 
+const mailController = require('../controllers/mail');
+
 const auth = require('../middlewares/auth');
 const userController = require('../controllers/user');
 
@@ -132,6 +134,10 @@ api.get('/wines/olorosos/:olorosoId', olorosoController.getOloroso);
 api.post('/wines/olorosos', auth, olorosoController.postOloroso);
 api.put('/wines/olorosos/:olorosoId', auth, olorosoController.updateOloroso);
 api.delete('/wines/olorosos/:olorosoId', auth, olorosoController.deleteOloroso);
+
+//----------  MAIL  ----------
+
+api.post('/mail', mailController.sendEmail);
 
 //api.post('/signUp', userController.signUp);
 api.post('/signIn', userController.signIn);
