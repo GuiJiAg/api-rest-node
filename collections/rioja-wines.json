@@ -1,0 +1,6 @@
+{"_id":{"$oid":"5cd950b4c6bc2a3d30226dbe"},"type":"Tinto","name":"Jaun de Alzate","information":"Vendimia Seleccionada","cupPrice":{"$numberInt":"3"},"bottlePrice":{"$numberInt":"16"}}
+{"_id":{"$oid":"5cd9514619d2be3d30329537"},"type":"Tinto","name":"Luis Gurpegui de Muga","information":"Crianza","cupPrice":{"$numberInt":"3"},"bottlePrice":{"$numberInt":"16"}}
+{"_id":{"$oid":"5cd9516319d2be3d30329538"},"type":"Tinto","name":"Proelio","information":"Crianza","cupPrice":{"$numberDouble":"3.5"},"bottlePrice":{"$numberInt":"18"}}
+{"_id":{"$oid":"5cd9518619d2be3d30329539"},"type":"Tinto","name":"Nivarius","information":"Crianza","cupPrice":{"$numberInt":"3"},"bottlePrice":{"$numberInt":"16"}}
+{"_id":{"$oid":"5cd951c519d2be3d3032953a"},"type":"Blanco","name":"Polus","information":"Bodegas de Loli Casado","cupPrice":{"$numberInt":"3"},"bottlePrice":{"$numberInt":"16"}}
+{"_id":{"$oid":"5cd9521c19d2be3d3032953b"},"type":"Blanco","name":"Nivarius","information":"Crianza","cupPrice":{"$numberDouble":"2.5"},"bottlePrice":{"$numberInt":"14"}}

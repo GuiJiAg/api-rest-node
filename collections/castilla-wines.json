@@ -1,0 +1,3 @@
+{"_id":{"$oid":"5cd95f44c6bc2a3d30226dc0"},"type":"Blanco","name":"Biatzu","information":"Ecológico (Ocaña-Toledo)","cupPrice":{"$numberDouble":"2.5"},"bottlePrice":{"$numberInt":"14"}}
+{"_id":{"$oid":"5cd95fe919d2be3d3032953f"},"type":"Tinto","name":"Mureda","information":"Ecológico (Sierra Alcaraz-Albacete)","cupPrice":{"$numberDouble":"2.5"},"bottlePrice":{"$numberInt":"0"}}
+{"_id":{"$oid":"5cd9600319d2be3d30329540"},"type":"Blanco","name":"Mureda","information":"Ecológico (Sierra Alcaraz-Albacete)","cupPrice":{"$numberDouble":"2.5"},"bottlePrice":{"$numberInt":"0"}}

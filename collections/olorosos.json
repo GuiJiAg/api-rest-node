@@ -1,0 +1,4 @@
+{"_id":{"$oid":"5cd9611fc6bc2a3d30226dc3"},"type":"Oloroso","name":"Alfaraque","information":"Montilla-Moriles","cupPrice":{"$numberInt":"3"},"bottlePrice":{"$numberInt":"0"}}
+{"_id":{"$oid":"5cd961de19d2be3d30329542"},"type":"Oloroso","name":"Solear","information":"Manzanilla","cupPrice":{"$numberDouble":"2.5"},"bottlePrice":{"$numberInt":"0"}}
+{"_id":{"$oid":"5cd961f519d2be3d30329543"},"type":"Oloroso","name":"Tio Pepe","information":"Xerez","cupPrice":{"$numberDouble":"2.5"},"bottlePrice":{"$numberInt":"0"}}
+{"_id":{"$oid":"5cd9620b19d2be3d30329544"},"type":"Oloroso","name":"Manzanilla","information":"En Rama","cupPrice":{"$numberDouble":"2.5"},"bottlePrice":{"$numberInt":"0"}}

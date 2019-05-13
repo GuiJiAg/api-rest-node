@@ -1,0 +1,2 @@
+{"_id":{"$oid":"5cd960acc6bc2a3d30226dc2"},"type":"Blanco","name":"Gorgorito","information":"Verdejo","cupPrice":{"$numberDouble":"2.5"},"bottlePrice":{"$numberInt":"14"}}
+{"_id":{"$oid":"5cd960ef19d2be3d30329541"},"type":"Blanco","name":"Valdepelayo","information":"Verdejo","cupPrice":{"$numberDouble":"2.5"},"bottlePrice":{"$numberInt":"14"}}

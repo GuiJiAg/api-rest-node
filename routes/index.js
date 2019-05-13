@@ -9,11 +9,22 @@ const pastaController = require('../controllers/pasta');
 const scrambledController = require('../controllers/scrambled');
 const fishController = require('../controllers/fish');
 const meatController = require('../controllers/meat');
+const dessertController = require('../controllers/dessert');
+
+const andalusianWineController = require('../controllers/andalusianWine');
+const riojaWineController = require('../controllers/riojaWine');
+const riberaWineController = require('../controllers/riberaWine');
+const castillaWineController = require('../controllers/castillaWine');
+const albarinioController = require('../controllers/albarinio');
+const ruedaWineController = require('../controllers/ruedaWine');
+const olorosoController = require('../controllers/oloroso');
 
 const auth = require('../middlewares/auth');
 const userController = require('../controllers/user');
 
 const api = express.Router();
+
+//----------  MENÚ  ----------
 
 /*   Entrantes   */
 api.get('/menu/entrees', entreeController.getEntrees);
@@ -57,12 +68,70 @@ api.post('/menu/fishs', auth, fishController.postFish);
 api.put('/menu/fishs/:fishId', auth, fishController.updateFish);
 api.delete('/menu/fishs/:fishId', auth, fishController.deleteFish);
 
-/*   Pescados   */
+/*   Carnes   */
 api.get('/menu/meats', meatController.getMeats);
 api.get('/menu/meats/:meatId', meatController.getMeat);
 api.post('/menu/meats', auth, meatController.postMeat);
 api.put('/menu/meats/:meatId', auth, meatController.updateMeat);
 api.delete('/menu/meats/:meatId', auth, meatController.deleteMeat);
+
+/*   Postres   */
+api.get('/menu/desserts', dessertController.getDesserts);
+api.get('/menu/desserts/:dessertId', dessertController.getDessert);
+api.post('/menu/desserts', auth, dessertController.postDessert);
+api.put('/menu/desserts/:dessertId', auth, dessertController.updateDessert);
+api.delete('/menu/desserts/:dessertId', auth, dessertController.deleteDessert);
+
+//----------  VINOS  ----------
+
+/*   Vinos de Andalucía   */
+api.get('/wines/andalusianWines', andalusianWineController.getAndalusianWines);
+api.get('/wines/andalusianWines/:andalusianWineId', andalusianWineController.getAndalusianWine);
+api.post('/wines/andalusianWines', auth, andalusianWineController.postAndalusianWine);
+api.put('/wines/andalusianWines/:andalusianWineId', auth, andalusianWineController.updateAndalusianWine);
+api.delete('/wines/andalusianWines/:andalusianWineId', auth, andalusianWineController.deleteAndalusianWine);
+
+/*   Vinos de Rioja   */
+api.get('/wines/RiojaWines', riojaWineController.getRiojaWines);
+api.get('/wines/RiojaWines/:riojaWineId', riojaWineController.getRiojaWine);
+api.post('/wines/RiojaWines', auth, riojaWineController.postRiojaWine);
+api.put('/wines/RiojaWines/:riojaWineId', auth, riojaWineController.updateRiojaWine);
+api.delete('/wines/RiojaWines/:riojaWineId', auth, riojaWineController.deleteRiojaWine);
+
+/*   Vinos de Ribera del Duero   */
+api.get('/wines/RiberaWines', riberaWineController.getRiberaWines);
+api.get('/wines/RiberaWines/:riberaWineId', riberaWineController.getRiberaWine);
+api.post('/wines/RiberaWines', auth, riberaWineController.postRiberaWine);
+api.put('/wines/RiberaWines/:riberaWineId', auth, riberaWineController.updateRiberaWine);
+api.delete('/wines/RiberaWines/:riberaWineId', auth, riberaWineController.deleteRiberaWine);
+
+/*   Vinos de Castilla-La Mancha  */
+api.get('/wines/CastillaWines', castillaWineController.getCastillaWines);
+api.get('/wines/CastillaWines/:castillaWineId', castillaWineController.getCastillaWine);
+api.post('/wines/CastillaWines', auth, castillaWineController.postCastillaWine);
+api.put('/wines/CastillaWines/:castillaWineId', auth, castillaWineController.updateCastillaWine);
+api.delete('/wines/CastillaWines/:castillaWineId', auth, castillaWineController.deleteCastillaWine);
+
+/*   Albariños  */
+api.get('/wines/albarinios', albarinioController.getAlbarinios);
+api.get('/wines/albarinios/:albarinioId', albarinioController.getAlbarinio);
+api.post('/wines/albarinios', auth, albarinioController.postAlbarinio);
+api.put('/wines/albarinios/:albarinioId', auth, albarinioController.updateAlbarinio);
+api.delete('/wines/albarinios/:albarinioId', auth, albarinioController.deleteAlbarinio);
+
+/*   Vinos Blancos de Rueda  */
+api.get('/wines/ruedaWines', ruedaWineController.getRuedaWines);
+api.get('/wines/ruedaWines/:ruedaWineId', ruedaWineController.getRuedaWine);
+api.post('/wines/ruedaWines', auth, ruedaWineController.postRuedaWine);
+api.put('/wines/ruedaWines/:ruedaWineId', auth, ruedaWineController.updateRuedaWine);
+api.delete('/wines/ruedaWines/:ruedaWineId', auth, ruedaWineController.deleteRuedaWine);
+
+/*   Olorosos  */
+api.get('/wines/olorosos', olorosoController.getOlorosos);
+api.get('/wines/olorosos/:olorosoId', olorosoController.getOloroso);
+api.post('/wines/olorosos', auth, olorosoController.postOloroso);
+api.put('/wines/olorosos/:olorosoId', auth, olorosoController.updateOloroso);
+api.delete('/wines/olorosos/:olorosoId', auth, olorosoController.deleteOloroso);
 
 //api.post('/signUp', userController.signUp);
 api.post('/signIn', userController.signIn);

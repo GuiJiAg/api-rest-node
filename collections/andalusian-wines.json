@@ -1,0 +1,16 @@
+{"_id":{"$oid":"5cd930e2c6bc2a3d30226dbc"},"type":"Tinto","name":"Cortijo La Fuente","information":"Mollina-Málaga","cupPrice":{"$numberDouble":"2.5"},"bottlePrice":{"$numberInt":"14"}}
+{"_id":{"$oid":"5cd931ce19d2be3d30329528"},"type":"Tinto","name":"Encaste","information":"Serranía de Ronda-Málaga","cupPrice":{"$numberInt":"3"},"bottlePrice":{"$numberInt":"16"}}
+{"_id":{"$oid":"5cd931f219d2be3d30329529"},"type":"Tinto","name":"Andresito","information":"Almargen-Málaga","cupPrice":{"$numberInt":"3"},"bottlePrice":{"$numberInt":"16"}}
+{"_id":{"$oid":"5cd9323a19d2be3d3032952a"},"type":"Tinto","name":"El Lagar de Cabrera","information":"Moclinejo-Málaga","cupPrice":{"$numberInt":"3"},"bottlePrice":{"$numberInt":"16"}}
+{"_id":{"$oid":"5cd9326419d2be3d3032952b"},"type":"Tinto","name":"Poeta en Nueva York","information":"Albuñol-Granada","cupPrice":{"$numberInt":"3"},"bottlePrice":{"$numberInt":"16"}}
+{"_id":{"$oid":"5cd932a319d2be3d3032952c"},"type":"Tinto","name":"Muñana","information":"Sierra Nevada-Granada","cupPrice":{"$numberDouble":"3.5"},"bottlePrice":{"$numberInt":"18"}}
+{"_id":{"$oid":"5cd932f419d2be3d3032952d"},"type":"Tinto","name":"Garum de Luis Perez","information":"Sierra de Cádiz","cupPrice":{"$numberInt":"0"},"bottlePrice":{"$numberInt":"21"}}
+{"_id":{"$oid":"5cd9332219d2be3d3032952e"},"type":"Tinto","name":"Siete 1000 Pasos","information":"Setenil-Cádiz","cupPrice":{"$numberInt":"0"},"bottlePrice":{"$numberInt":"21"}}
+{"_id":{"$oid":"5cd9334219d2be3d3032952f"},"type":"Tinto","name":"Entredicho","information":"Sierra de Segura-Jaén","cupPrice":{"$numberInt":"0"},"bottlePrice":{"$numberInt":"21"}}
+{"_id":{"$oid":"5cd9337b19d2be3d30329530"},"type":"Blanco","name":"Cortijo La Fuente","information":"Mollina-Málaga","cupPrice":{"$numberDouble":"2.5"},"bottlePrice":{"$numberInt":"14"}}
+{"_id":{"$oid":"5cd933ba19d2be3d30329531"},"type":"Blanco","name":"Andresito","information":"Almargen-Málaga","cupPrice":{"$numberInt":"3"},"bottlePrice":{"$numberInt":"16"}}
+{"_id":{"$oid":"5cd933f219d2be3d30329532"},"type":"Blanco","name":"El Lagar de Cabrera","information":"Moclinejo-Málaga","cupPrice":{"$numberInt":"3"},"bottlePrice":{"$numberInt":"16"}}
+{"_id":{"$oid":"5cd9343b19d2be3d30329533"},"type":"Blanco","name":"Arial de Pedro Olivares","information":"Sierra Segura-Jaén","cupPrice":{"$numberInt":"0"},"bottlePrice":{"$numberInt":"21"}}
+{"_id":{"$oid":"5cd9346d19d2be3d30329534"},"type":"Blanco","name":"Mioro","information":"Privilegio del Condado-Huelva","cupPrice":{"$numberDouble":"2.5"},"bottlePrice":{"$numberInt":"14"}}
+{"_id":{"$oid":"5cd934ad19d2be3d30329535"},"type":"Rosado","name":"Andresito","information":"Almargen-Málaga","cupPrice":{"$numberInt":"3"},"bottlePrice":{"$numberInt":"16"}}
+{"_id":{"$oid":"5cd934c819d2be3d30329536"},"type":"Rosado","name":"El Lagar de Cabrera","information":"Moclinejo-Málaga","cupPrice":{"$numberInt":"3"},"bottlePrice":{"$numberInt":"16"}}

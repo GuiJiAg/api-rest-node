@@ -1,0 +1,4 @@
+{"_id":{"$oid":"5cd95e62c6bc2a3d30226dbf"},"type":"Tinto","name":"Austum","information":"Roble","cupPrice":{"$numberInt":"3"},"bottlePrice":{"$numberInt":"16"}}
+{"_id":{"$oid":"5cd95ecb19d2be3d3032953c"},"type":"Tinto","name":"Arroyo","information":"Roble","cupPrice":{"$numberInt":"3"},"bottlePrice":{"$numberInt":"16"}}
+{"_id":{"$oid":"5cd95ee719d2be3d3032953d"},"type":"Tinto","name":"Trust","information":"Crianza","cupPrice":{"$numberInt":"0"},"bottlePrice":{"$numberInt":"21"}}
+{"_id":{"$oid":"5cd95f1a19d2be3d3032953e"},"type":"Tinto","name":"Torresilo 2010","information":"Vino de autor","cupPrice":{"$numberInt":"0"},"bottlePrice":{"$numberInt":"41"}}
