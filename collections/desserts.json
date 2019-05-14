@@ -1,0 +1,4 @@
+{"_id":{"$oid":"5cd91c3bc6bc2a3d30226db8"},"name":"Profiteroles","description":"Bolas de pasta choux rellenas de nata y vainilla","price":{"$numberDouble":"3.5"}}
+{"_id":{"$oid":"5cd91ccac6bc2a3d30226db9"},"name":"Brownie","description":"Bizcochito de chocolate caliente con nueces","price":{"$numberDouble":"3.5"}}
+{"_id":{"$oid":"5cd91cf6c6bc2a3d30226dba"},"name":"Coulant","description":"Bizcochito de chocolate caliente relleno de chocolate fundido","price":{"$numberDouble":"3.5"}}
+{"_id":{"$oid":"5cd91d43c6bc2a3d30226dbb"},"name":"Bienmesabe","description":"Bizcochito con almíbar de cidra, azucar glas y almendras","price":{"$numberInt":"4"}}
