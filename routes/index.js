@@ -139,6 +139,8 @@ api.delete('/wines/olorosos/:olorosoId', auth, olorosoController.deleteOloroso);
 
 api.post('/mail', mailController.sendEmail);
 
+//----------  USER  ----------
+
 //api.post('/signUp', userController.signUp);
 api.post('/signIn', userController.signIn);
 

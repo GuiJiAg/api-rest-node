@@ -10,7 +10,7 @@
     })
     .then(res => res.json())
     .then(data => {
-        data.entrees.map(entree => {
+        data.map(entree => {
             let text = document.createTextNode(entree.name);
             let elem = document.createElement('li');
             elem.appendChild(text);
