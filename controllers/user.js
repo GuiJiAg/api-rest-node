@@ -26,18 +26,18 @@ const signUp = (req, res) => {
 const signIn = (req, res) => {
     User.findOne({ email: req.body.email }, (err, user) => {
         if (err) {
-            return res.status(500).send({message: `Error al acceder: ${err}`});
+            return res.status(200).send({message: `Error al acceder: ${err}`});
         }
         if (!user) {
-            return res.status(404).send({message: `No existe el usuario: ${err}`});
+            return res.status(200).send({message: `No existe el usuario: ${err}`});
         }
 
         return user.comparePassword(req.body.password, (err, isMatch) => { 
             if (err) {
-                return res.status(500).send({message: `Error al comparar contraseñas: ${err}`});
+                return res.status(200).send({message: `Error al comparar contraseñas: ${err}`});
             } 
             if (!isMatch) {
-                return res.status(404).send({message: `Contraseña incorrecta: ${req.body.email}`});
+                return res.status(200).send({message: `Contraseña incorrecta: ${req.body.email}`});
             } 
 
             req.user = user;
