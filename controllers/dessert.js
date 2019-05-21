@@ -1,6 +1,6 @@
 'use strict';
 
-const Dessert = require('../models/dessert');
+const Dessert = require('../models/Dessert');
 
 function getDessert(req, res) {
     let dessertId = req.params.dessertId
