@@ -82,7 +82,7 @@ function deleteFish(req, res) {
                 return res.status(500).send({message: `Error al realizar la petición: ${err}`});
             }
 
-            res.status(200).send({message: 'El revuelto ha sido eliminado'});
+            res.status(200).send({message: 'El pescado ha sido eliminado'});
         });
     });
 }

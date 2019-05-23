@@ -82,7 +82,7 @@ function deleteMeat(req, res) {
                 return res.status(500).send({message: `Error al realizar la petición: ${err}`});
             }
 
-            res.status(200).send({message: 'La tosta ha sido eliminada'});
+            res.status(200).send({message: 'La carne ha sido eliminada'});
         });
     });
 }
