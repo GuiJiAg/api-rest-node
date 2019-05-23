@@ -10,7 +10,7 @@ function getSalad(req, res) {
             return res.status(500).send({message: `Error al realizar la petición: ${err}`})
         }
         if (!salad) {
-            return res.status(404).send({message:'Ensalada no encontrada'});
+            return res.status(200).send({message:'Ensalada no encontrada'});
         }
 
         res.status(200).send(salad);

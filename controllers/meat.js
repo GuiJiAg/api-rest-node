@@ -10,7 +10,7 @@ function getMeat(req, res) {
             return res.status(500).send({message: `Error al realizar la petición: ${err}`})
         }
         if (!meat) {
-            return res.status(404).send({message:'Carne no encontrada'});
+            return res.status(200).send({message:'Carne no encontrada'});
         }
 
         res.status(200).send(meat);

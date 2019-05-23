@@ -10,7 +10,7 @@ function getPasta(req, res) {
             return res.status(500).send({message: `Error al realizar la petición: ${err}`})
         }
         if (!pasta) {
-            return res.status(404).send({message:'Pasta no encontrada'});
+            return res.status(200).send({message:'Pasta no encontrada'});
         }
 
         res.status(200).send(pasta);

@@ -10,7 +10,7 @@ function getOloroso(req, res) {
             return res.status(500).send({message: `Error al realizar la petición: ${err}`})
         }
         if (!oloroso) {
-            return res.status(404).send({message:'Vino no encontrado'});
+            return res.status(200).send({message:'Vino no encontrado'});
         }
 
         res.status(200).send(oloroso);

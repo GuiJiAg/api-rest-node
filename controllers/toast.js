@@ -10,7 +10,7 @@ function getToast(req, res) {
             return res.status(500).send({message: `Error al realizar la petición: ${err}`})
         }
         if (!toast) {
-            return res.status(404).send({message:'Tosta no encontrada'});
+            return res.status(200).send({message:'Tosta no encontrada'});
         }
 
         res.status(200).send(toast);

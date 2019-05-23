@@ -10,7 +10,7 @@ function getFish(req, res) {
             return res.status(500).send({message: `Error al realizar la petición: ${err}`})
         }
         if (!fish) {
-            return res.status(404).send({message:'Pescado no encontrado'});
+            return res.status(200).send({message:'Pescado no encontrado'});
         }
 
         res.status(200).send(fish);

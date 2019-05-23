@@ -10,7 +10,7 @@ function getScrambled(req, res) {
             return res.status(500).send({message: `Error al realizar la petición: ${err}`})
         }
         if (!scrambled) {
-            return res.status(404).send({message:'Revuelto no encontrado'});
+            return res.status(200).send({message:'Revuelto no encontrado'});
         }
 
         res.status(200).send(scrambled);

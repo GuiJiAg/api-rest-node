@@ -10,7 +10,7 @@ function getEntree(req, res) {
             return res.status(500).send({message: `Error al realizar la petición: ${err}`})
         }
         if (!entree) {
-            return res.status(404).send({message:'Entrante no encontrado'});
+            return res.status(200).send({message:'Entrante no encontrado'});
         }
 
         res.status(200).send(entree);

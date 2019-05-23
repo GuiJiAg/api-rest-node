@@ -10,7 +10,7 @@ function getRiberaWine(req, res) {
             return res.status(500).send({message: `Error al realizar la petición: ${err}`})
         }
         if (!riberaWine) {
-            return res.status(404).send({message:'Vino no encontrado'});
+            return res.status(200).send({message:'Vino no encontrado'});
         }
 
         res.status(200).send(riberaWine);
