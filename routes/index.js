@@ -20,7 +20,6 @@ const ruedaWineController = require('../controllers/ruedaWine');
 const olorosoController = require('../controllers/oloroso');
 
 const mailController = require('../controllers/mail');
-const mailBotController = require('../controllers/mailBot');
 
 const auth = require('../middlewares/auth');
 const userController = require('../controllers/user');
