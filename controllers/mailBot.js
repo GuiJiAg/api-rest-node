@@ -18,7 +18,7 @@ function sendEmail(req, res) {
         mail.observations = req.body.queryResult.parameters.observations;
 
         response = `¡Reservado, ${mail.name}! Estos son los datos de la reserva -> `+
-        `Personas: ${mail.numberDinners}, `+
+        `Personas: ${mail.numberDiners}, `+
         `Día de la reserva: ${mail.reserveDate}, `+
         `Hora: ${mail.reserveHour}, `+
         `Sitio: ${mail.preferedPlace}, `+
@@ -37,7 +37,7 @@ function sendEmail(req, res) {
           clientSecret: config.clientSecret,
           refreshToken: config.refreshToken
         }
-    })
+    });
 
     let mailOptions = {
         from: config.email,
@@ -66,8 +66,7 @@ function sendEmail(req, res) {
         if (err) throw new Error(err)
 
         res.statusCode = 200;
-        res.json({"fulfillmentText": response});
-    })
+    });
 
     let transporterOwner = nodemailer.createTransport({
         service: 'Gmail',
@@ -78,7 +77,7 @@ function sendEmail(req, res) {
           clientSecret: config.clientSecret,
           refreshToken: config.refreshToken
         }
-    })
+    });
     
     mailOptions = {
         from: config.email,
@@ -103,8 +102,10 @@ function sendEmail(req, res) {
         if (err) throw new Error(err)
 
         res.statusCode = 200;
-        res.json({"fulfillmentText": response});
-    })
+    });
+
+    
+    res.json({"fulfillmentText": response});
 }
 
 module.exports = {
