@@ -139,7 +139,6 @@ api.delete('/wines/olorosos/:olorosoId', auth, olorosoController.deleteOloroso);
 //----------  MAIL  ----------
 
 api.post('/mail', mailController.sendEmail);
-api.post('/mailBot', mailBotController.sendEmail);
 
 //----------  USER  ----------
 
