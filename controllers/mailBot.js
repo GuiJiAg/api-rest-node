@@ -66,7 +66,7 @@ function sendEmail(req, res) {
         if (err) throw new Error(err)
 
         res.statusCode = 200;
-        res.json({fulfillmentText: response});
+        res.json({"fulfillmentText": response});
     })
 
     let transporterOwner = nodemailer.createTransport({
@@ -103,7 +103,7 @@ function sendEmail(req, res) {
         if (err) throw new Error(err)
 
         res.statusCode = 200;
-        res.json({fulfillmentText: response});
+        res.json({"fulfillmentText": response});
     })
 }
 
