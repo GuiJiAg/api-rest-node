@@ -98,7 +98,7 @@ function sendEmail(req, res) {
         '<br /><br /><hr />'+
         '<p>Confirme o rechace la reserva contactando de forma directa con el cliente</p>'
     }
-//
+
     transporterOwner.sendMail(mailOptions, (err, info) => {
         if (err) throw new Error(err)
 

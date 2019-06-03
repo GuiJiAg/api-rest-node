@@ -3,7 +3,7 @@
 const Mail = require('../models/Albarinio');
 const nodemailer = require('nodemailer');
 const config = require('../config');
-//
+
 function sendEmail(req, res) {
     let mail = new Mail();
     mail.name = req.body.name;
