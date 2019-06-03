@@ -20,6 +20,7 @@ const ruedaWineController = require('../controllers/ruedaWine');
 const olorosoController = require('../controllers/oloroso');
 
 const mailController = require('../controllers/mail');
+const mailBotController = require('../controllers/mailBot');
 
 const auth = require('../middlewares/auth');
 const userController = require('../controllers/user');
@@ -138,6 +139,7 @@ api.delete('/wines/olorosos/:olorosoId', auth, olorosoController.deleteOloroso);
 //----------  MAIL  ----------
 
 api.post('/mail', mailController.sendEmail);
+api.post('/mailBot', mailBotController.sendEmail);
 
 //----------  USER  ----------
 
