@@ -1,6 +1,6 @@
 'use strict';
 
-const Mail = require('../models/Albarinio');
+const Mail = require('../models/Mail');
 const nodemailer = require('nodemailer');
 const config = require('../config');
 
