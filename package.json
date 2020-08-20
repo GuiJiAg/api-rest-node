@@ -10,7 +10,7 @@
   "author": "Guillermo Jiménez (https://github.com/GuiJiAg)",
   "license": "MIT",
   "dependencies": {
-    "bcrypt": "^3.0.6",
+    "bcrypt": "^5.0.0",
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.18.3",
     "crypto": "^1.0.1",
